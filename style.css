@@ -754,6 +754,7 @@ nav {
   margin-top: 10%;
 }
 .section.gray.work {
+  padding: 8% 0% 20px 20px;
   background-color: #f7f8fc;
   display: inline-grid;
 }
@@ -1143,9 +1144,7 @@ footer {
   .section.gray.work {
     display: grid;
   }
-  .section.gray.work {
-    display: block;
-  }
+  
   .flex-row {
     flex-direction: column;
   }
@@ -1238,4 +1237,7 @@ footer {
 }
 .team-photo._4 {
   background-image: url(./images/team-4.jpg);
+}
+.no-margin{
+  margin: 0px;
 }
